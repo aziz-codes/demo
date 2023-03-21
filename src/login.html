@@ -9,8 +9,32 @@
   </head>
   <body>
     <div class="flex justify-center items-center min-h-screen">
-      <div class="flex flex-col h-96 w-56 border shadow-md rounded-md">
-        hello
+      <div
+        class="flex flex-col h-96 w-80 border shadow-md rounded-md px-2 pt-6 gap-3 relative top-6"
+      >
+        <h4 class="text-center font-semibold text-xl">Login to Your Account</h4>
+        <div class="flex flex-col mt-6">
+          <label class="text-gray-500 text-sm">Email</label>
+          <input
+            type="text"
+            placeholder="username or email"
+            class="outline-none border px-1 py-1 rounded-md"
+          />
+        </div>
+        <div class="flex flex-col mt-1">
+          <label class="text-gray-500 text-sm">Password</label>
+          <input
+            type="password"
+            placeholder="password"
+            class="outline-none border px-1 py-1 rounded-md"
+          />
+        </div>
+        <button
+          class="rounded-md px-2 py-1 border-none text-white mt-3 bg-sky-600 font-[400] hover:ring-1 ring-sky-300"
+        >
+          Login
+        </button>
+        <a class="text-center text-sm text-sky-500 mt-6">Forgot Password ?</a>
       </div>
     </div>
   </body>
